@@ -1,0 +1,303 @@
+@media (max-width: 575.98px) {
+    .title {
+        font-size: 2.6em;
+        margin-bottom: 20px
+    }
+    #pr-conteudo-item-1 {
+        padding-bottom: 30px
+    }
+    .iphone {
+        width: 150px
+    }
+    #celulares {
+        margin: -20px 0 -200px -100px
+    }
+    #lista {
+        justify-content: space-around;
+    }
+    #pr-conteudo-item-2 {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+	.carousel-control-next, .carousel-control-prev {
+	    top: inherit; 
+	    bottom: 100px;
+	}
+}
+
+@media (min-width: 576px) {
+    #botoes-header a {
+        margin: 5px auto;
+        font-size: 1.1em
+    }
+    .title {
+        font-size: 3em;
+        margin-bottom: 30px
+    }
+    .iphone {
+        width: 200px
+    }
+    #celulares {
+        margin: 0 0 -300px -150px
+    }
+    #lista {
+        justify-content: space-around
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    #botoes-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #botoes-header a {
+        margin: 5px auto
+    }
+    .navbar-brand img {
+        height: 27px
+    }
+    .brand-rodape img {
+        height: 27px
+    }
+    #botao-nav-principal {
+        background: #000;
+        padding: 10px 30px;
+        width: 80%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        transition: 0s;
+    }
+    .first-link {
+        font-size: 2.5em;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        font-weight: 500
+    }
+    .second-link {
+        font-size: 1.5em;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+        font-weight: 500
+    }
+    #lista-do-navbar #span-menu-1 {
+        width: 2px;
+        height: 18px;
+        background: #fff;
+        transform: rotate(90deg);
+        margin: 20px 0 20px 9px
+    }
+    #brand-reponsiva {
+        position: absolute;
+        bottom: 30px
+    }
+    #primeira-secao {
+        position: relative;
+        background: #fff;
+        padding: 50px 0
+    }
+    #pr-conteudo-item-1 {
+        order: 2
+    }
+    #pr-conteudo-item-2 {
+        order: 1
+    }
+    #segunda-secao {
+        padding: 50px 0
+    }
+    #plataforma {
+        max-width: 294px
+    }
+    #lista {
+        display: flex
+    }
+    #lista ul {
+        ;
+        display: block
+    }
+    #lista ul li {
+        margin-top: 15px
+    }
+    #quarta-secao p {
+        font-size: 1.3em
+    }
+    #footer-group-1 {
+        width: 50%
+    }
+    #footer-group-2-2 {
+        margin-top: 70px
+    }
+    #listas-rodape {
+        margin-top: 20px;
+        display: flex
+    }
+}
+
+@media (min-width: 768px) {
+
+    #navbar-estilo {
+        padding: 0
+    }
+    #botoes-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #botoes-header a {
+        margin: 0 5px;
+        font-size: 1.2em
+    }
+    #botao-nav-principal {
+        height: 80px;
+        font-weight: bold
+    }
+    #lista-do-navbar #span-menu-2 {
+        width: 1px;
+        height: 18px;
+        background: #fff;
+        margin: 0 20px;
+        align-items: center
+    }
+    #brand-reponsiva {
+        display: none
+    }
+    header {
+        height: 620px
+    }
+    .title {
+        font-size: 3.5em;
+        margin-bottom: 40px
+    }
+    #pr-conteudo-item-2 {
+        padding-left: 40px
+    }
+    #celulares img.iphone {
+        box-sizing: content-box;
+        width: 350px
+    }
+    #celulares {
+        margin-bottom: -200%;
+        position: relative;
+        top: -870px;
+        left: 300px
+    }
+    #dupla-iphone {
+        margin: 0 40px
+    }
+    #iphone-2 {
+        margin: 0 0 40px 0
+    }
+    .title-2 {
+        margin: 60px 0
+    }
+    #plataforma {
+        max-width: 650px
+    }
+    #quarta-secao {
+        padding-top: 150px
+    }
+    #quarta-secao p {
+        line-height: 2em;
+        font-size: 1.1em
+    }
+    #quarta-secao .flex-4 p {
+        font-size: 1.1em
+    }
+    .flex-4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap
+    }
+    #listas-rodape {
+        display: flex;
+        justify-content: space-around
+    }
+    #footer-group-2 {
+        display: flex;
+        justify-content: space-around
+    }
+    footer {
+        padding: 80px 0 20px
+    }
+    #footer-icones a {
+        display: inline-block;
+        background: #464646;
+        padding: 10px;
+        border-radius: 50px;
+        margin: 0 5px
+    }
+    .carousel-control-prev {
+        left: -70px; 
+    }
+    .carousel-control-next {
+        right: -70px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+	.carousel-control-next, .carousel-control-prev {
+	    top: inherit; 
+	    bottom: 90px;
+	}
+
+}
+
+@media (min-width: 992px) {
+    #pr-conteudo-item-2 {
+        padding-left: 120px
+    }
+}
+
+@media (min-width: 992px) {
+    #celulares {
+        margin-bottom: -200%;
+        position: relative;
+        top: -1070px;
+        left: 300px
+    }
+    footer #footer-icones a img {
+        height: 32px
+    }
+    #footer-icones {
+        text-align: right
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #pr-conteudo-item-2 {
+        margin-top: -40px
+    }
+
+    .carousel-control-prev {
+        left: -50px; 
+    }
+    .carousel-control-next {
+        right: -50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #celulares {
+        margin-bottom: -100%;
+        position: relative;
+        top: -650px;
+        left: 250px
+    }
+    #celulares img.iphone {
+        box-sizing: content-box;
+        width: 350px
+    }
+    #lista {
+        display: flex;
+        justify-content: center
+    }
+    #android {
+        left: 200px
+    }
+}
