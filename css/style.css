@@ -22,7 +22,7 @@ header {
     margin: 0 5px;
 }
 
-.carousel-indicators li.active::before {
+.carousel-indicators li::before {
     content: "";
     height: 19px;
     width: 19px;
@@ -30,6 +30,12 @@ header {
     border: 2px solid #fff;
     margin-top: 6px;
     margin-left: -4px;
+    opacity: 0;
+}
+
+.carousel-indicators li.active::before {
+    opacity: 1;
+    transition: 0.4s;
 }
 
 header * {
@@ -382,8 +388,6 @@ header {
     margin-bottom: 70px
 }
 
-#div-premium {}
-
 #quarta-secao #free {
     display: inline-block;
     margin-top: 15px;
@@ -495,4 +499,17 @@ footer #footer-icones a:hover {
 
 #termos .navbar a:hover {
     color: #9bf0e1
+}
+
+.caixa-carousel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.caixa-carousel div:first-child {
+    width: 100%;
 }

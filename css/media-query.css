@@ -24,6 +24,10 @@
 	    top: inherit; 
 	    bottom: 100px;
 	}
+
+    .carousel-item {
+        min-height: 220px;
+    }
 }
 
 @media (min-width: 576px) {
@@ -240,12 +244,13 @@
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-    
 	.carousel-control-next, .carousel-control-prev {
 	    top: inherit; 
 	    bottom: 90px;
 	}
-
+    .carousel-item {
+        min-height: 260px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -269,6 +274,12 @@
     }
 }
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .carousel-item {
+        min-height: 300px;
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
     #pr-conteudo-item-2 {
         margin-top: -40px
@@ -279,6 +290,9 @@
     }
     .carousel-control-next {
         right: -50px;
+    }
+    .carousel-item {
+        min-height: 250px;
     }
 }
 
@@ -299,5 +313,9 @@
     }
     #android {
         left: 200px
+    }
+
+    .carousel-item {
+        min-height: 250px;
     }
 }
