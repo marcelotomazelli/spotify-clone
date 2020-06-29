@@ -26,7 +26,11 @@
 	}
 
     .carousel-item {
-        min-height: 220px;
+        min-height: 350px;
+    }
+
+    .carousel-indicators {
+        margin-bottom: -10px;
     }
 }
 
