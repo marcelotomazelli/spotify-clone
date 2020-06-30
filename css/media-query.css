@@ -323,3 +323,9 @@
         min-height: 250px;
     }
 }
+
+@media (max-height: 400px) {
+    #brand-reponsiva {
+        right: 30px;
+    }
+}
