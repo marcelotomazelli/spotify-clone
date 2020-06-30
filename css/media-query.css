@@ -326,6 +326,6 @@
 
 @media (max-height: 400px) {
     #brand-reponsiva {
-        right: 30px;
+        display: none;
     }
 }
