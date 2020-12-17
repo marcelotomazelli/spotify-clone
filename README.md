@@ -1,7 +1,8 @@
 # Clone Spotify
- Feito em um curso para treino de Bootstrap.
+Feito em um curso para prática de Bootstrap.
 
-Se quiser ver o original de 2017 em Web Archives: [Spotify 2017](https://web.archive.org/web/20170228170145/https://www.spotify.com/br/) 
+Se quiser ver o original de 2017 em **_Web Archives_**:<br>
+[Spotify 2017](https://web.archive.org/web/20170228170145/https://www.spotify.com/br/) 
 
-Este projeto esta hospedado no GitHub Pages:
+Esse projeto está hospedado no **_GitHub Pages_**:<br>
 [Clone Spotify](https://marcelotomazelli.github.io/Clone-Spotify/)
